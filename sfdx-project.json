@@ -3,11 +3,36 @@
 		{
 			"path": "src-temp",
 			"default": true
+		},
+		{
+			"path": "src/packocz2/factory",
+			"package": "namespace-class-factory",
+			"versionName": "ver 0.1",
+			"versionNumber": "0.1.0.NEXT",
+			"default": false,
+			"versionDescription": "Namespaced class factory with mocking to test Stub API in this context"
+		},
+		{
+			"path": "src/packocz/stubs",
+			"package": "StubsInNamespaceTest",
+			"versionName": "ver 1.0",
+			"versionNumber": "1.0.0.NEXT",
+			"default": false,
+			"versionDescription": "Contains classes using stub api testing it against another namespace",
+			"dependencies": [
+				{
+					"package": "namespace-class-factory",
+					"version": "0.1.0.LATEST"
+				}
+			]
 		}
 	],
-	"name": "sfxx",
-	"namespace": "",
+	"name": "namespace-stub",
+	"namespace": "packocz2",
 	"sfdcLoginUrl": "https://login.salesforce.com",
-	"sourceApiVersion": "60.0",
-	"packageAliases": {}
+	"sourceApiVersion": "63.0",
+	"packageAliases": {
+		"namespace-class-factory": "0HoJ6000000PAt1KAG",
+		"StubsInNamespaceTest": "0HoJ6000000PAsrKAG"
+	}
 }
