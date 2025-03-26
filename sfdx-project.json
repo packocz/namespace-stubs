@@ -22,17 +22,19 @@
 			"dependencies": [
 				{
 					"package": "namespace-class-factory",
-					"version": "0.1.0.LATEST"
+					"versionNumber": "0.1.0.LATEST"
 				}
 			]
 		}
 	],
 	"name": "namespace-stub",
-	"namespace": "packocz2",
+	"namespace": "packocz",
 	"sfdcLoginUrl": "https://login.salesforce.com",
 	"sourceApiVersion": "63.0",
 	"packageAliases": {
 		"namespace-class-factory": "0HoJ6000000PAt1KAG",
-		"StubsInNamespaceTest": "0HoJ6000000PAsrKAG"
+		"StubsInNamespaceTest": "0HoJ6000000PAsrKAG",
+		"namespace-class-factory@0.1.0-5": "04tJ6000000ozHWIAY",
+		"StubsInNamespaceTest@1.0.0-3": "04tJ6000000ozHlIAI"
 	}
 }
